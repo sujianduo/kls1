@@ -3,8 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"kls1_atlas_1", frames: [[954,1388,650,185],[0,1822,932,141],[1606,1388,301,301],[934,1752,910,141],[0,1082,1955,304],[0,0,1920,1080],[0,1388,438,432],[440,1388,512,362]]},
-		{name:"kls1_atlas_2", frames: [[303,0,474,168],[665,170,254,166],[0,430,419,162],[0,303,663,125],[0,0,301,301],[779,0,200,90],[421,430,369,138]]}
+		{name:"kls1_atlas_1", frames: [[1408,1671,474,168],[743,1682,218,142],[954,1368,650,185],[0,1516,419,162],[743,1555,663,125],[954,1082,932,141],[1606,1368,301,301],[954,1225,910,141],[440,1446,301,301],[743,1446,200,90],[0,0,1920,1080],[0,1082,438,432],[440,1082,512,362],[0,1680,369,138]]}
 ];
 
 
@@ -29,14 +28,14 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_10 = function() {
-	this.initialize(ss["kls1_atlas_2"]);
+	this.initialize(ss["kls1_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_9 = function() {
-	this.initialize(ss["kls1_atlas_2"]);
+	this.initialize(ss["kls1_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
@@ -44,70 +43,69 @@ lib.ssMetadata = [
 
 (lib.CachedBmp_8 = function() {
 	this.initialize(ss["kls1_atlas_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_7 = function() {
-	this.initialize(ss["kls1_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_6 = function() {
-	this.initialize(ss["kls1_atlas_2"]);
+(lib.CachedBmp_7 = function() {
+	this.initialize(ss["kls1_atlas_1"]);
 	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_6 = function() {
+	this.initialize(ss["kls1_atlas_1"]);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_5 = function() {
 	this.initialize(ss["kls1_atlas_1"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_4 = function() {
 	this.initialize(ss["kls1_atlas_1"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_3 = function() {
 	this.initialize(ss["kls1_atlas_1"]);
-	this.gotoAndStop(3);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2 = function() {
-	this.initialize(ss["kls1_atlas_2"]);
-	this.gotoAndStop(4);
+	this.initialize(ss["kls1_atlas_1"]);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_1 = function() {
-	this.initialize(ss["kls1_atlas_1"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.CachedBmp_1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2119,304);
 
 
 (lib.bar1 = function() {
-	this.initialize(ss["kls1_atlas_2"]);
-	this.gotoAndStop(5);
+	this.initialize(ss["kls1_atlas_1"]);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.birutoscahd = function() {
 	this.initialize(ss["kls1_atlas_1"]);
-	this.gotoAndStop(5);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -120,21 +118,21 @@ p.nominalBounds = new cjs.Rectangle(0,0,4608,2592);
 
 (lib.SD = function() {
 	this.initialize(ss["kls1_atlas_1"]);
-	this.gotoAndStop(6);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.selesai = function() {
 	this.initialize(ss["kls1_atlas_1"]);
-	this.gotoAndStop(7);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.waktuhabis = function() {
-	this.initialize(ss["kls1_atlas_2"]);
-	this.gotoAndStop(6);
+	this.initialize(ss["kls1_atlas_1"]);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -304,7 +302,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.instance = new lib.CachedBmp_9();
-	this.instance.setTransform(-38.75,-44.6,0.3042,0.3042);
+	this.instance.setTransform(-38.75,-44.6,0.3549,0.3549);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(13));
 
@@ -358,9 +356,9 @@ if (reversed == null) { reversed = false; }
 	this.jawaban_txt.name = "jawaban_txt";
 	this.jawaban_txt.textAlign = "center";
 	this.jawaban_txt.lineHeight = 33;
-	this.jawaban_txt.lineWidth = 342;
+	this.jawaban_txt.lineWidth = 338;
 	this.jawaban_txt.parent = this;
-	this.jawaban_txt.setTransform(0.65,-13.1);
+	this.jawaban_txt.setTransform(1.25,-11.8);
 
 	this.timeline.addTween(cjs.Tween.get(this.jawaban_txt).wait(3));
 
@@ -420,7 +418,7 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_2
+	// Layer_3
 	this.instance = new lib.CachedBmp_3();
 	this.instance.setTransform(-137.55,50.15,0.3125,0.3125);
 
@@ -447,7 +445,7 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1},{t:this.instance}]},1).to({state:[{t:this.instance_3},{t:this.instance_2}]},1).to({state:[{t:this.instance_5},{t:this.instance_4}]},1).to({state:[{t:this.instance_7},{t:this.instance_6}]},1).wait(1));
 
-	// Layer_3
+	// Layer_2
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFF00").s().p("EghrAPvIAA/dMBDXAAAIAAfdg");
 	this.shape.setTransform(0.75,3.2);
@@ -606,7 +604,7 @@ if (reversed == null) { reversed = false; }
 	this.no_soal_txt.lineHeight = 42;
 	this.no_soal_txt.lineWidth = 74;
 	this.no_soal_txt.parent = this;
-	this.no_soal_txt.setTransform(-358.35,-103.4);
+	this.no_soal_txt.setTransform(-352.75,-103.4);
 
 	this.hasilMC = new lib.hasilKuisMC();
 	this.hasilMC.name = "hasilMC";
@@ -615,9 +613,9 @@ if (reversed == null) { reversed = false; }
 	this.soal_txt = new cjs.Text("Dynamic text soal", "40px 'SimHei'");
 	this.soal_txt.name = "soal_txt";
 	this.soal_txt.lineHeight = 42;
-	this.soal_txt.lineWidth = 785;
+	this.soal_txt.lineWidth = 759;
 	this.soal_txt.parent = this;
-	this.soal_txt.setTransform(-347.15,-103.2);
+	this.soal_txt.setTransform(-341.55,-103.2);
 
 	this.jawaban_4 = new lib.jawabanMC();
 	this.jawaban_4.name = "jawaban_4";
@@ -639,7 +637,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.kuisMC, new cjs.Rectangle(-434.1,-250.6,873.8,426.2), null);
+}).prototype = getMCSymbolPrototype(lib.kuisMC, new cjs.Rectangle(-428.5,-250.6,848,426.2), null);
 
 
 // stage content:
@@ -664,34 +662,34 @@ if (reversed == null) { reversed = false; }
 		mpi.click("mulaiBtn", 10);
 	}
 	this.frame_9 = function() {
-		var soal = [["Orang", "人 rén", "手 shǒu", "我 wǒ", "叫 jiào"],			  
-					["Mulut", "嘴巴 zuǐ ba", "耳朵 ěr duo", "牙齿 yá chǐ", "手 shǒu"],
-					["Tangan", "手 shǒu", "人 rén", "我 wǒ", "耳朵 ěr duo"],
-					["Saya", "我 wǒ", "人 rén", "手 shǒu", "牙 yá"],
-					["Kami", "我们 wǒ men", "我 wǒ", "叫 jiào", "印尼 yìn ní"],
-					["Adalah", "是 shì", "家 jiā", "岁 suì", "叫 jiào"],
-					["Keluarga", "家 jiā", "叫 jiào", "是 shì", "岁 suì"],
-					["Memanggil", "叫 jiào", "岁 suì", "是 shì", "说 shuō"],
-					["Tahun usia", "岁 suì", "家 jiā", "叫 jiào", "是 shì"],
-					["Indonesia", "印尼 yìn ní", "我们 wǒ men", "家人 jiā rén", "中国 zhōng guó"],
-					["Makan", "吃 chī", "喝 hē", "水 shuǐ", "说 shuō"],
-					["Minum", "喝 hē", "吃 chī", "水 shuǐ", "说 shuō"],
-					["Air", "水 shuǐ", "吃 chī", "喝 hē", "口 kǒu"],
-					["Telinga", "耳朵 ěr duo", "牙齿 yá chǐ", "头 tóu", "口 kǒu"],
-					["Gigi", "牙齿 yá chǐ", "耳朵 ěr duo", "头 tóu", "口 kǒu"],
-					["Kepala", "头 tóu", "耳朵 ěr duo", "牙齿 yá chǐ", "手 shǒu"],
-					["Punya", "有 yǒu", "是 shì", "叫 jiào", "家 jiā"],
-					["Berbicara", "说话 shuō huà", "刷牙 shuā yá", "刷 shuā", "喝水 hē shuǐ"],
-					["Menyikat", "刷 shuā", "说话 shuō huà", "刷牙 shuā yá", "手 shǒu"],
-					["Menyikat gigi", "刷牙 shuā yá", "牙齿 yá chǐ", "说话 shuō huà", "牙刷 yá shuā"],
-					["我 _____ Budi。(Saya bernama Budi.)", "叫 jiào", "六 liù", "口 kǒu", "岁 suì"],
-					["我 _____ 岁。(Saya berumur 6 tahun)", "六 liù", "叫 jiào", "口 kǒu", "人 rén"],
-					["我是 __________ 。(Saya adalah orang Indonesia.)", "印尼人 yìn ní rén", "我们 wǒ men", "人 rén", "印尼 yìn ní"],
-					["我家有 _____ 口人。(Keluarga saya ada 7 orang.)", "七 qī", "是 shì", "叫 jiào", "岁 suì"],
-					["Saya minum air.", "我喝水。", "我刷牙。", "我有耳朵。", "我有手。"],
-					["Saya menyikat gigi.", "我刷牙。", "我喝水。", "我有耳朵。", "我有手。"],
-					["Saya punya telinga.", "我有耳朵。", "我有手。", "我喝水。", "我刷牙。"],
-					["Saya punya tangan.", "我有手。", "我有耳朵。", "我喝水。", "我刷牙。"]];
+		var soal = [["Atas", "上 shànɡ", "下 xià", "大 dà", "小 xiǎo"],			  
+					["Bawah", "下 xià", "上 shànɡ", "大 dà", "小 xiǎo"],
+					["Besar", "大 dà", "小 xiǎo", "上 shànɡ", "下 xià"],
+					["Kecil", "小 xiǎo", "大 dà", "下 xià", "大 dà"],
+					["Kiri", "左 zuǒ", "右 yòu", "有 yǒu", "上 shànɡ"],
+					["Kanan", "右 yòu", "左 zuǒ", "有 yǒu", "下 xià"],
+					["Ada", "有 yǒu", "左 zuǒ", "右 yòu", "大 dà"],
+					["Meja", "桌 zhuō", "书 shū", "树 shù", "猫 māo"],
+					["Buku", "书 shū", "树 shù", "桌 zhuō", "猫 māo"],
+					["Pohon", "树 shù", "书 shū", "桌 zhuō", "猫 māo"],
+					["Kucing", "猫 māo", "老鼠 lǎo shǔ", "大象 dà xiànɡ", "树 shù"],
+					["Gajah", "大象 dà xiànɡ", "老鼠 lǎo shǔ", "猫 māo", "桌 zhuō"],
+					["Tikus", "老鼠 lǎo shǔ", "猫 māo", "大象 dà xiànɡ", "书 shū"],
+					["Bola basket", "篮球 lán qiú", "网球 wǎnɡ qiú", "足球 zú qiú", "早上 zǎo shanɡ"],
+					["Bola tenis", "网球 wǎnɡ qiú", "篮球 lán qiú", "足球 zú qiú", "晚上 wǎn shanɡ"],
+					["Tangan kiri", "左手 zuǒ shǒu", "右手 yòu shǒu", "小手 xiǎo shǒu", "耳朵 ěr duo"],
+					["Tangan kanan", "右手 yòu shǒu", "左手 zuǒ shǒu", "小手 xiǎo shǒu", "耳朵 ěr duo"],
+					["Pagi", "早上 zǎo shanɡ", "晚上 wǎn shanɡ", "耳朵 ěr duo", "篮球 lán qiú"],
+					["Malam", "晚上 wǎn shanɡ", "早上 zǎo shanɡ", "耳朵 ěr duo", "网球 wǎnɡ qiú"],
+					["Telinga", "耳朵 ěr duo", "早上 zǎo shanɡ", "晚上 wǎn shanɡ", "右手 yòu shǒu"],
+					["zhuō shànɡ yǒu shū", "桌上有书。", "桌下有猫。", "树下有书。", "树下有猫。"],
+					["shù xià yǒu māo", "树下有猫。", "桌上有书。", "桌下有猫。", "树下有书。"],
+					["dà xiànɡ dà", "大象大。", "老鼠小。", "篮球大。", "网球小。"],
+					["lǎo shǔ xiǎo", "老鼠小。", "大象大。", "篮球大。", "网球小。"],
+					["大象的耳朵大。dà xiànɡ de ěr duo dà", "telinga gajah besar", "telinga tikus kecil", "bola basket besar", "bola tenis kecil"],
+					["老鼠的耳朵小。lǎo shǔ de ěr duo xiǎo", "telinga tikus kecil", "telinga gajah besar", "bola basket besar", "bola tenis kecil"],
+					["lán qiú dà wǎnɡ qiú xiǎo Bola basket besar, bola tenis kecil.", "篮球大，网球小。", "大象大，老鼠小。", "桌上有书。", "树下有猫。"],
+					["zhuō xià yǒu māo Di bawah meja ada kucing.", "桌下有猫。", "桌上有书。", "树下有书。", "树下有猫。"]];
 					
 		var ob = this;
 		mpi.kuis("kuisMC", soal, 25, selesaiKuis);
@@ -729,15 +727,15 @@ if (reversed == null) { reversed = false; }
 	new cjs.ButtonHelper(this.mulaiBtn, 0, 1, 2);
 
 	this.instance = new lib.CachedBmp_1();
-	this.instance.setTransform(246.25,199.25,0.5,0.5);
+	this.instance.setTransform(246.25,189.25,0.5,0.5);
 
 	this.timerKuis = new lib.timerMC2();
 	this.timerKuis.name = "timerKuis";
-	this.timerKuis.setTransform(1308.6,99.55,1.6438,1.6438);
+	this.timerKuis.setTransform(1320.9,114.95,1.409,1.409);
 
 	this.kuisMC = new lib.kuisMC();
 	this.kuisMC.name = "kuisMC";
-	this.kuisMC.setTransform(721,358.8,1.6,1.5999);
+	this.kuisMC.setTransform(719,358.8,1.6,1.5999);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance},{t:this.mulaiBtn}]},5).to({state:[{t:this.kuisMC},{t:this.timerKuis}]},4).to({state:[]},1).wait(3));
 
@@ -766,13 +764,13 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/IMG_20240814_1222413.png?1728268373155", id:"IMG_20240814_1222413"},
-		{src:"images/kls1_atlas_1.png?1728268373010", id:"kls1_atlas_1"},
-		{src:"images/kls1_atlas_2.png?1728268373011", id:"kls1_atlas_2"},
-		{src:"sounds/wan.mp3?1728268373155", id:"wan"},
-		{src:"sounds/dui.mp3?1728268373155", id:"dui"},
-		{src:"sounds/cuo.mp3?1728268373155", id:"cuo"},
-		{src:"sounds/dao.mp3?1728268373155", id:"dao"}
+		{src:"images/CachedBmp_1.png?1731989921757", id:"CachedBmp_1"},
+		{src:"images/IMG_20240814_1222413.png?1731989921757", id:"IMG_20240814_1222413"},
+		{src:"images/kls1_atlas_1.png?1731989921666", id:"kls1_atlas_1"},
+		{src:"sounds/wan.mp3?1731989921757", id:"wan"},
+		{src:"sounds/dui.mp3?1731989921757", id:"dui"},
+		{src:"sounds/cuo.mp3?1731989921757", id:"cuo"},
+		{src:"sounds/dao.mp3?1731989921757", id:"dao"}
 	],
 	preloads: []
 };
