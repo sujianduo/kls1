@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"kls1_atlas_1", frames: [[1408,1671,474,168],[743,1682,218,142],[954,1368,650,185],[0,1516,419,162],[743,1555,663,125],[954,1082,932,141],[1606,1368,301,301],[954,1225,910,141],[440,1446,301,301],[743,1446,200,90],[0,0,1920,1080],[0,1082,438,432],[440,1082,512,362],[0,1680,369,138]]}
+		{name:"kls1_atlas_1", frames: [[743,1725,474,168],[1219,1725,254,166],[954,1398,650,185],[0,1516,419,162],[743,1585,663,138],[954,1082,932,156],[1606,1398,301,334],[954,1240,910,156],[440,1446,301,334],[743,1446,200,90],[0,0,1920,1080],[0,1082,438,432],[440,1082,512,362],[0,1680,369,138]]}
 ];
 
 
@@ -93,7 +93,7 @@ lib.ssMetadata = [
 (lib.CachedBmp_1 = function() {
 	this.initialize(img.CachedBmp_1);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,2119,304);
+p.nominalBounds = new cjs.Rectangle(0,0,2231,154);
 
 
 (lib.bar1 = function() {
@@ -302,7 +302,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.instance = new lib.CachedBmp_9();
-	this.instance.setTransform(-38.75,-44.6,0.3549,0.3549);
+	this.instance.setTransform(-38.75,-44.6,0.3042,0.3042);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(13));
 
@@ -352,23 +352,23 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_2
-	this.jawaban_txt = new cjs.Text("jawaban", "30px 'DengXian'", "#FFFFFF");
+	this.jawaban_txt = new cjs.Text("jawaban", "30px 'DengXian'");
 	this.jawaban_txt.name = "jawaban_txt";
 	this.jawaban_txt.textAlign = "center";
 	this.jawaban_txt.lineHeight = 33;
-	this.jawaban_txt.lineWidth = 338;
+	this.jawaban_txt.lineWidth = 342;
 	this.jawaban_txt.parent = this;
-	this.jawaban_txt.setTransform(1.25,-11.8);
+	this.jawaban_txt.setTransform(0.65,-13.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.jawaban_txt).wait(3));
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#0033CC").s().p("A5vF9QjIABAAjIIAAlrQAAjHDIgBMAzfAAAQDIABAADHIAAFrQAADIjIgBgA7th0IAADqQAAC+C+AAMAxgAAAQC+AAAAi+IAAjqQAAi/i+AAMgxgAAAQi+AAAAC/g");
+	this.shape.graphics.f("#996600").s().p("A5vF9QjIABAAjIIAAlrQAAjHDIgBMAzfAAAQDIABAADHIAAFrQAADIjIgBgA7th0IAADqQAAC+C+AAMAxgAAAQC+AAAAi+IAAjqQAAi/i+AAMgxgAAAQi+AAAAC/g");
 	this.shape.setTransform(1.1,1.9);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#0000FF").s().p("A4XEYQi6AAAAi6IAAi6QAAi7C6AAMAwvAAAQC6AAAAC7IAAC6QAAC6i6AAg");
+	this.shape_1.graphics.f("#FFFF00").s().p("A4XEYQi6AAAAi6IAAi6QAAi7C6AAMAwvAAAQC6AAAAC7IAAC6QAAC6i6AAg");
 	this.shape_1.setTransform(1.125,1.925);
 
 	this.shape_2 = new cjs.Shape();
@@ -380,26 +380,18 @@ if (reversed == null) { reversed = false; }
 	this.shape_3.setTransform(1.1,1.9);
 
 	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.f("#A2FD7D").s().p("A4HBWQgjAAgZgaQgZgZAAgjQAAgiAZgaQAZgZAjAAMAwOAAAQAkAAAZAZQAZAZABAjQgBAkgZAYQgYAaglAAg");
-	this.shape_4.setTransform(0.75,-11);
+	this.shape_4.graphics.f("#42BE22").s().p("A4XEYQi6AAAAi6IAAi6QAAi7C6AAMAwvAAAQC6AAAAC7IAAC6QAAC6i6AAgA5Hi9QgYAZAbgcIAKgJIgNAMg");
+	this.shape_4.setTransform(1.125,1.925);
 
 	this.shape_5 = new cjs.Shape();
-	this.shape_5.graphics.f("#42BE22").s().p("A4XEYQi6AAAAi6IAAi6QAAi7C6AAMAwvAAAQC6AAAAC7IAAC6QAAC6i6AAgA5Hi9QgZAaAAAjQAAAjAZAZQAZAaAkAAMAwOAAAQAkAAAYgaQAagYAAgkQAAgkgagZQgZgZgjAAMgwOAAAQgjAAgaAZg");
-	this.shape_5.setTransform(1.125,1.925);
+	this.shape_5.graphics.f("#4F0A0A").s().p("A5vF9QjIABAAjIIAAlrQAAjHDIgBMAzfAAAQDIABAADHIAAFrQAADIjIgBgA7th0IAADqQAAC+C+AAMAxgAAAQC+AAAAi+IAAjqQAAi/i+AAMgxgAAAQi+AAAAC/g");
+	this.shape_5.setTransform(1.1,1.9);
 
 	this.shape_6 = new cjs.Shape();
-	this.shape_6.graphics.f("#4F0A0A").s().p("A5vF9QjIABAAjIIAAlrQAAjHDIgBMAzfAAAQDIABAADHIAAFrQAADIjIgBgA7th0IAADqQAAC+C+AAMAxgAAAQC+AAAAi+IAAjqQAAi/i+AAMgxgAAAQi+AAAAC/g");
-	this.shape_6.setTransform(1.1,1.9);
+	this.shape_6.graphics.f("#AD1818").s().p("A4XEYQi6AAAAi6IAAi6QAAi7C6AAMAwvAAAQC6AAAAC7IAAC6QAAC6i6AAg");
+	this.shape_6.setTransform(1.125,1.925);
 
-	this.shape_7 = new cjs.Shape();
-	this.shape_7.graphics.f("#D86B6B").s().p("A4HBWQgjAAgZgaQgZgZAAgjQAAgiAZgaQAZgZAjAAMAwOAAAQAkAAAZAZQAZAZABAjQgBAkgZAYQgYAaglAAg");
-	this.shape_7.setTransform(0.75,-11);
-
-	this.shape_8 = new cjs.Shape();
-	this.shape_8.graphics.f("#AD1818").s().p("A4XEYQi6AAAAi6IAAi6QAAi7C6AAMAwvAAAQC6AAAAC7IAAC6QAAC6i6AAgA5Hi9QgZAaAAAjQAAAjAZAZQAZAaAkAAMAwOAAAQAkAAAYgaQAagYAAgkQAAgkgagZQgZgZgjAAMgwOAAAQgjAAgaAZg");
-	this.shape_8.setTransform(1.125,1.925);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).to({state:[{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2}]},1).to({state:[{t:this.shape_2},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).to({state:[{t:this.shape_4},{t:this.shape_3},{t:this.shape_2}]},1).to({state:[{t:this.shape_2},{t:this.shape_6},{t:this.shape_5}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -418,7 +410,7 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_3
+	// Layer_2
 	this.instance = new lib.CachedBmp_3();
 	this.instance.setTransform(-137.55,50.15,0.3125,0.3125);
 
@@ -445,7 +437,7 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1},{t:this.instance}]},1).to({state:[{t:this.instance_3},{t:this.instance_2}]},1).to({state:[{t:this.instance_5},{t:this.instance_4}]},1).to({state:[{t:this.instance_7},{t:this.instance_6}]},1).wait(1));
 
-	// Layer_2
+	// Layer_3
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFF00").s().p("EghrAPvIAA/dMBDXAAAIAAfdg");
 	this.shape.setTransform(0.75,3.2);
@@ -598,24 +590,24 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.jawabKuis1},{t:this.jawabKuis2},{t:this.jawabKuis3},{t:this.jawabKuis4}]}).wait(1));
 
 	// aset
-	this.no_soal_txt = new cjs.Text("no.", "40px 'SimHei'");
+	this.no_soal_txt = new cjs.Text("no.", "40px 'Arial'");
 	this.no_soal_txt.name = "no_soal_txt";
 	this.no_soal_txt.textAlign = "right";
-	this.no_soal_txt.lineHeight = 42;
+	this.no_soal_txt.lineHeight = 47;
 	this.no_soal_txt.lineWidth = 74;
 	this.no_soal_txt.parent = this;
-	this.no_soal_txt.setTransform(-352.75,-103.4);
+	this.no_soal_txt.setTransform(-358.35,-103.4);
 
 	this.hasilMC = new lib.hasilKuisMC();
 	this.hasilMC.name = "hasilMC";
 	this.hasilMC.setTransform(0,-217.65);
 
-	this.soal_txt = new cjs.Text("Dynamic text soal", "40px 'SimHei'");
+	this.soal_txt = new cjs.Text("Dynamic text soal", "40px 'Arial'");
 	this.soal_txt.name = "soal_txt";
-	this.soal_txt.lineHeight = 42;
-	this.soal_txt.lineWidth = 759;
+	this.soal_txt.lineHeight = 47;
+	this.soal_txt.lineWidth = 785;
 	this.soal_txt.parent = this;
-	this.soal_txt.setTransform(-341.55,-103.2);
+	this.soal_txt.setTransform(-347.15,-103.2);
 
 	this.jawaban_4 = new lib.jawabanMC();
 	this.jawaban_4.name = "jawaban_4";
@@ -637,7 +629,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.kuisMC, new cjs.Rectangle(-428.5,-250.6,848,426.2), null);
+}).prototype = getMCSymbolPrototype(lib.kuisMC, new cjs.Rectangle(-434.1,-250.6,873.8,426.2), null);
 
 
 // stage content:
@@ -662,37 +654,30 @@ if (reversed == null) { reversed = false; }
 		mpi.click("mulaiBtn", 10);
 	}
 	this.frame_9 = function() {
-		var soal = [["Atas", "上 shànɡ", "下 xià", "大 dà", "小 xiǎo"],			  
-					["Bawah", "下 xià", "上 shànɡ", "大 dà", "小 xiǎo"],
-					["Besar", "大 dà", "小 xiǎo", "上 shànɡ", "下 xià"],
-					["Kecil", "小 xiǎo", "大 dà", "下 xià", "大 dà"],
-					["Kiri", "左 zuǒ", "右 yòu", "有 yǒu", "上 shànɡ"],
-					["Kanan", "右 yòu", "左 zuǒ", "有 yǒu", "下 xià"],
-					["Ada", "有 yǒu", "左 zuǒ", "右 yòu", "大 dà"],
-					["Meja", "桌 zhuō", "书 shū", "树 shù", "猫 māo"],
-					["Buku", "书 shū", "树 shù", "桌 zhuō", "猫 māo"],
-					["Pohon", "树 shù", "书 shū", "桌 zhuō", "猫 māo"],
-					["Kucing", "猫 māo", "老鼠 lǎo shǔ", "大象 dà xiànɡ", "树 shù"],
-					["Gajah", "大象 dà xiànɡ", "老鼠 lǎo shǔ", "猫 māo", "桌 zhuō"],
-					["Tikus", "老鼠 lǎo shǔ", "猫 māo", "大象 dà xiànɡ", "书 shū"],
-					["Bola basket", "篮球 lán qiú", "网球 wǎnɡ qiú", "足球 zú qiú", "早上 zǎo shanɡ"],
-					["Bola tenis", "网球 wǎnɡ qiú", "篮球 lán qiú", "足球 zú qiú", "晚上 wǎn shanɡ"],
-					["Tangan kiri", "左手 zuǒ shǒu", "右手 yòu shǒu", "小手 xiǎo shǒu", "耳朵 ěr duo"],
-					["Tangan kanan", "右手 yòu shǒu", "左手 zuǒ shǒu", "小手 xiǎo shǒu", "耳朵 ěr duo"],
-					["Pagi", "早上 zǎo shanɡ", "晚上 wǎn shanɡ", "耳朵 ěr duo", "篮球 lán qiú"],
-					["Malam", "晚上 wǎn shanɡ", "早上 zǎo shanɡ", "耳朵 ěr duo", "网球 wǎnɡ qiú"],
-					["Telinga", "耳朵 ěr duo", "早上 zǎo shanɡ", "晚上 wǎn shanɡ", "右手 yòu shǒu"],
-					["zhuō shànɡ yǒu shū", "桌上有书。", "桌下有猫。", "树下有书。", "树下有猫。"],
-					["shù xià yǒu māo", "树下有猫。", "桌上有书。", "桌下有猫。", "树下有书。"],
-					["dà xiànɡ dà", "大象大。", "老鼠小。", "篮球大。", "网球小。"],
-					["lǎo shǔ xiǎo", "老鼠小。", "大象大。", "篮球大。", "网球小。"],
-					["大象的耳朵大。dà xiànɡ de ěr duo dà", "telinga gajah besar", "telinga tikus kecil", "bola basket besar", "bola tenis kecil"],
-					["老鼠的耳朵小。lǎo shǔ de ěr duo xiǎo", "telinga tikus kecil", "telinga gajah besar", "bola basket besar", "bola tenis kecil"],
-					["lán qiú dà wǎnɡ qiú xiǎo Bola basket besar, bola tenis kecil.", "篮球大，网球小。", "大象大，老鼠小。", "桌上有书。", "树下有猫。"],
-					["zhuō xià yǒu māo Di bawah meja ada kucing.", "桌下有猫。", "桌上有书。", "树下有书。", "树下有猫。"]];
-					
+		var soal = [["土 tǔ", "tanah", "kayu", "air", "api"],
+					["木头 mù tou", "kayu", "tanah", "air", "api"], 
+					["水 shuǐ", "air", "kayu", "tanah", "gunung"],
+					["山 shān", "gunung", "batu", "ladang", "api"],
+					["石头 shí tou", "batu", "ladang", "api", "gunung"],
+					["田 tián", "ladang", "batu", "api", "gunung"],
+					["火 huǒ", "api", "ladang", "batu", "gunung"],
+					["水果 shuǐ guǒ", "buah", "pepaya", "pisang", "rambutan"],
+					["山竹 shān zhú", "manggis", "pepaya", "pisang", "rambutan"],
+					["木瓜 mù guā", "pepaya", "manggis", "pisang", "rambutan"],
+					["香蕉 xiāng jiāo", "pisang", "manggis", "pepaya", "rambutan"],
+					["红毛丹 hóng máo dān", "rambutan", "manggis", "pepaya", "pisang"],
+					["Gunung api", "火山 huǒ shān", "火车 huǒ chē", "石山 shí shān", "水田 shuǐ tián"],
+					["Kereta api", "火车 huǒ chē", "火山 huǒ shān", "石山 shí shān", "水田 shuǐ tián"],
+					["Gunung batu", "石山 shí shān", "火山 huǒ shān", "火车 huǒ chē", "水田 shuǐ tián"],
+					["Sawah", "水田 shuǐ tián", "火山 huǒ shān", "火车 huǒ chē", "石山 shí shān"],
+					["Menebang", "砍 kǎn", "树 shù", "丢 diū", "垃圾 lā jī"],
+					["Pohon", "树 shù", "砍 kǎn", "丢 diū", "垃圾 lā jī"],
+					["Membuang", "丢 diū", "砍 kǎn", "树 shù", "垃圾 lā jī"],
+					["Sampah", "垃圾 lā jī", "砍 kǎn", "树 shù", "丢 diū"],
+					["Tanah", "土 tǔ", "木头 mù tou", "水 shuǐ", "火 huǒ"]];
+		
 		var ob = this;
-		mpi.kuis("kuisMC", soal, 25, selesaiKuis);
+		mpi.kuis("kuisMC", soal, 20, selesaiKuis);
 		ob.kuisMC.opsi = "A";
 		ob.kuisMC.suaraBenar = "dui";
 		ob.kuisMC.suaraSalah = "cuo";
@@ -709,7 +694,7 @@ if (reversed == null) { reversed = false; }
 		mpi.startKuis();
 		
 		function selesaiKuis(){
-			mpi.popup("popupMC", "成绩", ""+ob.kuisMC.score/2.5, kembali);
+			mpi.popup("popupMC", "成绩", ""+ob.kuisMC.score/2, kembali);
 		}
 		
 		function kembali(){
@@ -727,15 +712,15 @@ if (reversed == null) { reversed = false; }
 	new cjs.ButtonHelper(this.mulaiBtn, 0, 1, 2);
 
 	this.instance = new lib.CachedBmp_1();
-	this.instance.setTransform(246.25,189.25,0.5,0.5);
+	this.instance.setTransform(164.25,295.2,0.5,0.5);
 
 	this.timerKuis = new lib.timerMC2();
 	this.timerKuis.name = "timerKuis";
-	this.timerKuis.setTransform(1320.9,114.95,1.409,1.409);
+	this.timerKuis.setTransform(1308.6,99.55,1.6438,1.6438);
 
 	this.kuisMC = new lib.kuisMC();
 	this.kuisMC.name = "kuisMC";
-	this.kuisMC.setTransform(719,358.8,1.6,1.5999);
+	this.kuisMC.setTransform(721,358.8,1.6,1.5999);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance},{t:this.mulaiBtn}]},5).to({state:[{t:this.kuisMC},{t:this.timerKuis}]},4).to({state:[]},1).wait(3));
 
@@ -743,18 +728,18 @@ if (reversed == null) { reversed = false; }
 	this.instance_1 = new lib.birutoscahd();
 	this.instance_1.setTransform(0,0,0.75,0.6686);
 
-	this.instance_2 = new lib.IMG_20240814_1222413();
-	this.instance_2.setTransform(20,-172,0.3172,0.3172);
+	this.instance_2 = new lib.SD();
+	this.instance_2.setTransform(43,37,0.4979,0.4283);
 
-	this.instance_3 = new lib.SD();
-	this.instance_3.setTransform(62,35,0.5,0.5);
+	this.instance_3 = new lib.IMG_20240814_1222413();
+	this.instance_3.setTransform(35,-114,0.2995,0.2786);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1},{t:this.instance_3},{t:this.instance_2}]},4).to({state:[{t:this.instance_1}]},1).wait(7));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1},{t:this.instance_3},{t:this.instance_2}]},4).to({state:[{t:this.instance_1}]},4).wait(4));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,1481.8,722.2);
+p.nominalBounds = new cjs.Rectangle(0,0,1440,722.2);
 // library properties:
 lib.properties = {
 	id: '31BCA53C770DAE4A85A7336FD3DEAC60',
@@ -764,13 +749,13 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_1.png?1731989921757", id:"CachedBmp_1"},
-		{src:"images/IMG_20240814_1222413.png?1731989921757", id:"IMG_20240814_1222413"},
-		{src:"images/kls1_atlas_1.png?1731989921666", id:"kls1_atlas_1"},
-		{src:"sounds/wan.mp3?1731989921757", id:"wan"},
-		{src:"sounds/dui.mp3?1731989921757", id:"dui"},
-		{src:"sounds/cuo.mp3?1731989921757", id:"cuo"},
-		{src:"sounds/dao.mp3?1731989921757", id:"dao"}
+		{src:"images/CachedBmp_1.png?1738253058398", id:"CachedBmp_1"},
+		{src:"images/IMG_20240814_1222413.png?1738253058398", id:"IMG_20240814_1222413"},
+		{src:"images/kls1_atlas_1.png?1738253058313", id:"kls1_atlas_1"},
+		{src:"sounds/wan.mp3?1738253058399", id:"wan"},
+		{src:"sounds/dui.mp3?1738253058399", id:"dui"},
+		{src:"sounds/cuo.mp3?1738253058399", id:"cuo"},
+		{src:"sounds/dao.mp3?1738253058399", id:"dao"}
 	],
 	preloads: []
 };
