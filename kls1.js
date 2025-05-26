@@ -687,7 +687,7 @@ if (reversed == null) { reversed = false; }
 					["yú er yóu", "鱼儿游。", "鸟儿飞。", "虫儿爬。", "马儿跑。"],
 					["niǎo er fēi", "鸟儿飞。", "鱼儿游。", "马儿跑。", "虫儿爬。"],
 					["天上有云。tiān shànɡ yǒu yún", "Di langit ada awan.", "Di langit ada matahari.", "Di langit ada bulan.", "Di langit ada bintang."],
-					["牛耕田。niú ɡēnɡ tián", "Sapi membajak sawah.", "Kuda makan rumput.", "Kuda berlari.", "Sapi makan rumput."]];
+					["Sapi membajak sawah.", "牛耕田。niú ɡēnɡ tián", "羊吃草。yánɡ chī cǎo", "鱼儿游。yú er yóu", "鸟儿飞。niǎo er fēi"]];
 					
 		var ob = this;
 		mpi.kuis("kuisMC", soal, 25, selesaiKuis);
@@ -762,13 +762,13 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_11.png?1748240726242", id:"CachedBmp_11"},
-		{src:"images/IMG_20250430_101050.jpg?1748240726242", id:"IMG_20250430_101050"},
-		{src:"images/kls1_atlas_1.png?1748240726157", id:"kls1_atlas_1"},
-		{src:"sounds/dui.mp3?1748240726242", id:"dui"},
-		{src:"sounds/cuo.mp3?1748240726242", id:"cuo"},
-		{src:"sounds/wan.mp3?1748240726242", id:"wan"},
-		{src:"sounds/dao.mp3?1748240726242", id:"dao"}
+		{src:"images/CachedBmp_11.png?1748242093712", id:"CachedBmp_11"},
+		{src:"images/IMG_20250430_101050.jpg?1748242093712", id:"IMG_20250430_101050"},
+		{src:"images/kls1_atlas_1.png?1748242093626", id:"kls1_atlas_1"},
+		{src:"sounds/dui.mp3?1748242093712", id:"dui"},
+		{src:"sounds/cuo.mp3?1748242093712", id:"cuo"},
+		{src:"sounds/wan.mp3?1748242093712", id:"wan"},
+		{src:"sounds/dao.mp3?1748242093712", id:"dao"}
 	],
 	preloads: []
 };
